@@ -1,0 +1,698 @@
+#body-forum
+{
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a
+{
+  text-decoration:none;
+  color:inherit
+}
+
+#logo
+{
+    float: left;
+    width: 250px;
+    height: 48px;
+}
+.Navigation
+{
+    overflow: hidden;
+    background-color: #e9e9e9;
+}
+.Navigation a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .Navigation a:hover {
+    background-color: rgb(100, 98, 98);
+    color: rgb(255, 255, 255);
+  }
+  
+  .Navigation a.active {
+    background-color: rgb(100, 98, 98);
+    color: white;
+  }
+
+  .Navigation .search-container {
+    float: right;
+  }
+  
+  .Navigation input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+
+  .Navigation .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .Navigation .search-container button:hover {
+    background: rgb(100, 98, 98);
+  }
+
+  #live-feed
+  {
+      float: right;
+  }
+  .live-video
+  {
+      float: right;
+      margin-bottom: 20px;
+  }
+
+  header
+  {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+/* ------------------- TOPIC BLOCK ----------------------- */
+
+#Main-bloc
+{
+  display: flex;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.topic-container
+{
+  box-sizing: border-box;
+  display: block;
+  font-size: 18px; 
+  padding-right: 50px;
+  opacity: 85%;
+}
+
+.topic-list
+{
+  display: table;
+  box-sizing: border-box;
+  list-style-type: none;
+  margin: 0 0 1.5rem;
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: separate;
+  padding: 0 .125rem;
+  border-spacing: 0 .125rem;
+}
+
+.listtopic
+{
+background-clip: border-box;
+background-color: rgb(238, 245, 252);
+background-image: none;
+box-sizing: border-box color rgb(0, 0, 0);
+display: table-row;
+font-size: 17px;
+height: 20px;
+line-height: 16px;
+list-style-type: none;
+}
+
+.first-bloc
+{
+box-sizing: border-box color rgb(0, 0, 0);
+display: block;
+font-size: 14px;
+height: 28px;
+line-height: 20px;
+margin-top: 0px;
+text-align: center;
+}
+
+/* ------------------- TOPIC BLOCK END ----------------------- */
+
+/* ------------------- LOGIN ----------------------- */
+
+.login-page {
+  width: 400px;
+  margin: auto;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 400px;
+  margin: 0 auto 20px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  text-transform: uppercase;
+  outline: 0;
+  background: #141d14;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background: #141d14;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #141d14;
+  text-decoration: none;
+}
+
+
+/* ------------------- LOGIN END ----------------------- */
+
+/* ------------------- SUBMIT MESSAGE FORM ----------------------- */
+
+input[type=texto], select, textarea {
+  width: 100%; 
+  padding: 12px;  
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px;
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+input[type=submit] {
+  background-color: #141d14;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #141d14;
+}
+
+#bloc-form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  opacity: 45%;
+  font-size: 15px;
+}
+
+#bloc-form2 {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  opacity: 45%;
+  font-size: 15px;
+  opacity: 1;
+  margin: 50px 150px 150px 150px;
+}
+
+
+/* ------------------- SUBMIT MESSAGE FORM END ----------------------- */
+
+/* ------------------- TOPICS ----------------------- */
+
+
+
+.listtopic h3 {
+  font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+}
+
+.listtopic img {
+  float: left;
+  margin: 10px;
+  width: 200px;
+  height: 150px;
+}
+
+.listtopic p {
+  font: 200 12px/1.5 Georgia, Times New Roman, serif;
+}
+
+.listtopic {
+  padding: 10px;
+  overflow: auto;
+}
+
+.listtopic:hover {
+  background: #eee;
+  cursor: pointer;
+}
+
+/* ------------------- TOPICS END ----------------------- */
+
+/* ------------------- PREVIOUS/NEXT BUTTONS ----------------------- */
+
+.test
+{
+  display: flex;
+  justify-content: center;
+}
+.pnbutton
+ {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  color: #000000;
+  background-color: rgb(238, 245, 252);
+  margin: 5px;
+}
+
+.pnbutton:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+
+
+/* ------------------- PREVIOUS/NEXT BUTTONS END ----------------------- */
+
+/* ------------------- ADDNEWTOPIC/RECENT BUTTONS ----------------------- */
+
+.test1
+{
+  position: relative;
+}
+.Recent
+{
+  background-color: #f1f1f1;
+  color: black;
+  display: inline-block;
+  padding: 8px 16px;
+  color: #000000;
+  background-color: rgb(238, 245, 252);
+}
+
+.Back
+{
+  background-color: #f1f1f1;
+  color: black;
+  display: inline-block;
+  padding: 8px 16px;
+  color: #000000;
+  background-color: rgb(238, 245, 252);
+}
+
+.Addnew
+{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: #f1f1f1;
+  color: black;
+  display: inline-block;
+  padding: 8px 16px;
+  color: #000000;
+  background-color: rgb(238, 245, 252);
+}
+
+.Addnew:hover
+{
+  background-color: #ddd;
+  color: black;
+}
+
+.Back:hover
+{
+  background-color: #ddd;
+  color: black;
+}
+
+/* ------------------- ADDNEWTOPIC/RECENT BUTTONS END ----------------------- */
+
+/* ------------------- TOPIC DISCUSSION ----------------------- */
+
+.repplycomment 
+{
+background-clip: border-box;
+background-color: rgb(238, 245, 252);
+background-image: none;
+box-sizing: border-box color rgb(0, 0, 0);
+display: table-row;
+font-size: 17px;
+height: 20px;
+line-height: 16px;
+list-style-type: none;
+}
+
+.repplycomment h3 {
+  font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+}
+
+.repplycomment img {
+  float: left;
+  margin: 10px;
+  width: 200px;
+  height: 150px;
+}
+
+.repplycomment p {
+  font: 200 12px/1.5 Georgia, Times New Roman, serif;
+}
+
+.repplycomment  {
+  padding: 10px;
+  overflow: auto;
+  margin: 50px;
+}
+
+.repplycomment:hover {
+  background: #eee;
+  cursor: pointer;
+}
+
+.repplys
+{
+  display: table;
+  box-sizing: border-box;
+  list-style-type: none;
+  margin: 0 0 1.5rem;
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: separate;
+  border-spacing: 0 0.5rem;
+  padding-left: 75px;
+}
+
+.test5
+{
+  padding-left: 100px;
+}
+
+.test6
+{
+  padding-left: 100px;
+}
+
+summary {
+  padding: 4px;
+  width: 320px;
+  background-color: rgb(238, 245, 252);
+  border: none;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  cursor: pointer;
+}
+
+/* ------------------- TOPIC DISCUSSION END ----------------------- */
+
+/* ------------------- ELIE ----------------------- */
+
+.box {
+  display: flex;
+  border-radius: 20%;
+
+}
+
+#RssFeed {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+#conteneur
+{
+  padding: 20px;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+  border-width: 6px;
+  border-style:inset;
+  font-style: normal;
+  text-align:justify;
+  background-color:#ffffff;
+}
+#Paris {
+  border-style:initial;
+  border-width: 4px;
+  border-color:rgba(78, 78, 80, 0.733);
+  font-family: 'Roboto', sans serif;
+  font-style: normal;
+text-align:justify;
+padding: 20px;
+align-items: center;
+
+
+}
+#haaland {
+  border-style:inset;
+  border-width: 4px;
+  border-color:rgba(78, 78, 80, 0.733);
+  font-family: 'Roboto', sans serif;
+  font-style: normal;
+text-align:justify;
+padding: 20px;
+align-items: center;
+}
+
+
+/* ------------------- ARTHUR ----------------------- */
+
+.Avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.table-wrapper {
+        max-width: 1000px;
+        overflow: scroll;
+        display: flex;
+}
+
+table {
+    position: relative;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+  }
+  
+  td, th {
+    white-space: nowrap;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #eee;
+    position: sticky;
+    top: -1px;
+    z-index: 2;
+  }
+  
+  tbody tr td:first-of-type {
+    background-color: #eee;
+    position: sticky;
+    left: -1px;
+    text-align: left;
+  }
+
+.banner {
+  background-image: rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%;
+  background-color: #e9e9e9;
+  color: white;
+  padding: 10px 20px;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.banner1{
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: 50px;
+  color: #000;
+}
+.banner h2 {
+  font-size: 30px;
+  font-weight: lighter;
+  opacity: 0.8;
+  margin-bottom: 40px;
+  color: #000;
+}
+
+.banner img {
+  margin: 0 10px;
+  opacity: 0.8;
+  width: 1200px;
+}
+
+.display
+{
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 18px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+.Card {
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+  border-radius: 15px;
+  margin: 10px;
+  flex-basis: 250px;
+  flex-grow: 1;
+  background-color: white;
+}
+.Card img {
+  width: 150px;
+  border-radius: 6px;
+}
+.Card h3 {
+  flex-grow: 1;
+  padding-left: 20px;
+  font-size: 18px;
+
+}
+
+
+.btn-blue {
+  background-color: #ABD5D1;
+  padding: 30px 50px;
+  border-radius: 4px;
+  color: black;
+  font-weight: bold;
+  font-family: 'Hatton', sans serif;
+}
+
+.styled1 {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 2rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: rgba(1, 152, 117, 1);
+  background-image: linear-gradient(to top left,
+                                    rgba(0, 0, 0, .2),
+                                    rgba(0, 0, 0, .2) 30%,
+                                    rgba(0, 0, 0, 0));
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+              inset -2px -2px 3px rgba(0, 0, 0, .6);
+  margin-bottom: 15px;
+}
+
+.styled1:hover {
+  background-color: rgba(1, 152, 117, 1);
+}
+
+.styled1:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+              inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled2 {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 2rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color:
+  rgba(51, 110, 123, 1);
+  background-image: linear-gradient(to top left,
+                                    rgba(0, 0, 0, .2),
+                                    rgba(0, 0, 0, .2) 30%,
+                                    rgba(0, 0, 0, 0));
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+              inset -2px -2px 3px rgba(0, 0, 0, .6);
+  margin-bottom: 15px;
+}
+
+.styled2:hover {
+  background-color: 
+  rgba(51, 110, 123, 1);
+}
+
+.styled2:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+              inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.container2 {
+  width: 1000px;
+  margin: 80px auto;
+}
+
+@media (max-width: 960px) {
+  .container2 {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container2 {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container2 {
+    width: 300px;
+  }
+}
+
+
+.ctest
+{
+  display: flex;
+}
+
+
+

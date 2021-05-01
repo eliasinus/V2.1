@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="description" content="Forum Topic">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="css/style.css"/>
+        <script src="javascript/js.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" href="">
+        <title>Forum Topic</title>
+    </head>
+
+    <header>        
+        <div class="Navigation">
+            <img id='logo' src="images/logo.png" alt="logo">           
+            <a href="index.html">Home</a>
+            <a href="rumors.html">Rumors of the day</a>
+            <a href="summaries.html">Summaries</a>
+            <a href="top10p.html">Top 10 Value</a>
+            <a class="active" href="forum.html">Forum</a>
+            <a href="contact.html">Contact Us</a>
+
+            <div class="search-container">
+                <input type="text" placeholder="Search..." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <body id="body-forum">
+        <div id="Main-bloc">
+            <div class="topic-container">
+                <ul class="topic-list">
+                    <div class="test1">
+                        <a href="forum.html" class="Back">Back</a>
+                        <a onclick="one()" class="Addnew" href="#bloc-form"> Add a reply</a>
+                    </div>
+
+                    <li class="repplycomment originalcomment">
+                        <img src="images/Neymar.jpg" >
+                        <h3>Mauris varius eu orci ac malesuada.</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum rutrum lacus dignissim egestas. Mauris varius eu orci ac malesuada. Vestibulum mauris magna, dignissim egestas elit id, venenatis molestie turpis. In quis fringilla libero. Quisque aliquam dapibus turpis, ut vehicula metus tristique eu. Quisque in scelerisque libero. Phasellus fringilla consequat elit at iaculis. Nullam dictum ut magna non pretium. Mauris hendrerit tellus vel commodo varius. Integer neque velit, condimentum at interdum eu, vestibulum ac mauris. Ut sit amet molestie urna. Aenean tempus sodales sodales.
+                            <br><br>Posted by Jean Neymar, 12/01/2021.
+                        </p>
+                    </li>
+                </ul>
+
+                <ul class="repplys">
+                    <li class="repplycomment">
+                        <img src="images/Ronaldo.jpg" >
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum rutrum lacus dignissim egestas. Mauris varius eu orci ac malesuada. Vestibulum mauris magna, dignissim egestas elit id, venenatis molestie turpis. In quis fringilla libero. Quisque aliquam dapibus turpis, ut vehicula metus tristique eu. Quisque in scelerisque libero. Phasellus fringilla consequat elit at iaculis. Nullam dictum ut magna non pretium. Mauris hendrerit tellus vel commodo varius. Integer neque velit, condimentum at interdum eu, vestibulum ac mauris. Ut sit amet molestie urna. Aenean tempus sodales sodales.
+                            <br><br>Posted by CR7 The best, 0 Replys.
+                            <br><br> Reply to CR7 The best.
+                        </p>
+                    </li>
+
+                    <li class="repplycomment">
+                        <img src="images/valbuena.jpg" >
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum rutrum lacus dignissim egestas. Mauris varius eu orci ac malesuada. Vestibulum mauris magna, dignissim egestas elit id, venenatis molestie turpis. In quis fringilla libero. Quisque aliquam dapibus turpis, ut vehicula metus tristique eu. Quisque in scelerisque libero. Phasellus fringilla consequat elit at iaculis. Nullam dictum ut magna non pretium. Mauris hendrerit tellus vel commodo varius. Integer neque velit, condimentum at interdum eu, vestibulum ac mauris. Ut sit amet molestie urna. Aenean tempus sodales sodales.
+                            <br><br>Posted by Valbuena, 2 Replys.
+                            <br><br> Reply to Valbuena.
+                        </p>
+                    </li>
+
+                    <details><summary>Click to show reply to this comment.</summary>
+                            <ul class="test5">
+                                <li class="repplycomment">
+                                    <img src="images/henry.jpeg" >
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum rutrum lacus dignissim egestas. Mauris varius eu orci ac malesuada. Vestibulum mauris magna, dignissim egestas elit id, venenatis molestie turpis. In quis fringilla libero. Quisque aliquam dapibus turpis, ut vehicula metus tristique eu. Quisque in scelerisque libero. Phasellus fringilla consequat elit at iaculis. Nullam dictum ut magna non pretium. Mauris hendrerit tellus vel commodo varius. Integer neque velit, condimentum at interdum eu, vestibulum ac mauris. Ut sit amet molestie urna. Aenean tempus sodales sodales.    
+                                        <br><br>Posted by Thierry Henry, 0 Replys.
+                                        <br><br> Reply to Thierry Henry.
+                                    </p>
+                                </li>
+                
+                                <li class="repplycomment">
+                                    <img src="images/ibrahimovic.jpg" >
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum rutrum lacus dignissim egestas. Mauris varius eu orci ac malesuada. Vestibulum mauris magna, dignissim egestas elit id, venenatis molestie turpis. In quis fringilla libero. Quisque aliquam dapibus turpis, ut vehicula metus tristique eu. Quisque in scelerisque libero. Phasellus fringilla consequat elit at iaculis. Nullam dictum ut magna non pretium. Mauris hendrerit tellus vel commodo varius. Integer neque velit, condimentum at interdum eu, vestibulum ac mauris. Ut sit amet molestie urna. Aenean tempus sodales sodales.
+                                        <br><br>Posted by Zlatan Ibrahimovic, 0 Replys.
+                                        <br><br> Reply to Zlatan Ibrahimovic.</p>
+                                </li>
+                            </ul>
+                    </details>
+
+                </ul>
+
+                <ul class="repplys">                      
+                    <li class="repplycomment">
+                        <img src="images/Mbappe.jpg" >
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum rutrum lacus dignissim egestas. Mauris varius eu orci ac malesuada. Vestibulum mauris magna, dignissim egestas elit id, venenatis molestie turpis. In quis fringilla libero. Quisque aliquam dapibus turpis, ut vehicula metus tristique eu. Quisque in scelerisque libero. Phasellus fringilla consequat elit at iaculis. Nullam dictum ut magna non pretium. Mauris hendrerit tellus vel commodo varius. Integer neque velit, condimentum at interdum eu, vestibulum ac mauris. Ut sit amet molestie urna. Aenean tempus sodales sodales.
+                            <br><br>Posted by Kylian Mbappé, 2 Replys.
+                            <br><br> Reply to CR7 The best.
+                        </p>  
+                    </li>
+
+                    <details><summary>Click to show reply to this comment.</summary>
+                            <ul class="test5">
+                                <li class="repplycomment">
+                                    <img src="images/Messi.jpg" >
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum rutrum lacus dignissim egestas. Mauris varius eu orci ac malesuada. Vestibulum mauris magna, dignissim egestas elit id, venenatis molestie turpis. In quis fringilla libero. Quisque aliquam dapibus turpis, ut vehicula metus tristique eu. Quisque in scelerisque libero. Phasellus fringilla consequat elit at iaculis. Nullam dictum ut magna non pretium. Mauris hendrerit tellus vel commodo varius. Integer neque velit, condimentum at interdum eu, vestibulum ac mauris. Ut sit amet molestie urna. Aenean tempus sodales sodales.    
+                                        <br><br>Posted by Lionel Messi, 1 Reply.
+                                        <br><br> Reply to CR7 The best.
+                                    </p>
+                                </li>
+
+                                <details><summary>Click to show reply to this comment.</summary>
+                                    <ul class="test6">
+                                        <li class="repplycomment">
+                                            <img src="images/Mbappe.jpg" >
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum rutrum lacus dignissim egestas. Mauris varius eu orci ac malesuada. Vestibulum mauris magna, dignissim egestas elit id, venenatis molestie turpis. In quis fringilla libero. Quisque aliquam dapibus turpis, ut vehicula metus tristique eu. Quisque in scelerisque libero. Phasellus fringilla consequat elit at iaculis. Nullam dictum ut magna non pretium. Mauris hendrerit tellus vel commodo varius. Integer neque velit, condimentum at interdum eu, vestibulum ac mauris. Ut sit amet molestie urna. Aenean tempus sodales sodales.
+                                            <br><br>Posted by Kylian Mbappé, 0 Replys.
+                                            <br><br> Reply to Kylian Mbappé.
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </details>
+                            </ul>
+                    </details>
+
+                </ul>
+
+                <div onclick="one()" id="bloc-form">
+                    <h3>New repply form :</h3>
+                    <form action="">                                     
+                        <label for="subject">Repply</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>                    
+                        <input type="submit" value="Submit">
+                </div>
+                
+            </div>
+
+            <div id="live-feed">
+                <div class="login-page">
+                    <div class="form">
+                      <form class="login-form">
+                            <input type="text" placeholder="Username"/>
+                            <input type="password" placeholder="Password"/>
+                            <button>login</button>
+                            <p class="message">Not registered? <a href="#">Create an account</a></p>
+                      </form>
+                    </div>
+                </div>
+                   
+                <div class="live-video"><iframe width="400" height="300" src="https://www.youtube.com/embed/PBQtG5_lXrA?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                <div><a class="twitter-timeline" width="400" height="300" href="https://twitter.com/ActuFoot_?ref_src=twsrc%5Etfw">Tweets by ActuFoot_</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+            </div>
+        </div>   
+    </body>
+</html>
+
+
